@@ -1,0 +1,3 @@
+"F:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Empyre.dir/objects.a
+C:\raylib\mingw\bin\ar.exe qc CMakeFiles\Empyre.dir/objects.a @CMakeFiles\Empyre.dir\objects1.rsp
+C:\raylib\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Empyre.dir/objects.a -Wl,--no-whole-archive -o Empyre.exe -Wl,--out-implib,libEmpyre.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Empyre.dir\linklibs.rsp
