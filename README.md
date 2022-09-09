@@ -1,2 +1,2 @@
-# serve-empyre
- Web server for the 'ferre-app' for telemetry and complementing my pseudo/amateur data science infrastructure for fun.
+# Empyre
+ Server for web-app----to be used with a natural language processing library. I/O for text and, or, markdown files.
