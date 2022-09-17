@@ -1,6 +1,6 @@
-import NLPClassifierUnicoded as NLPClassifier
-import TensorIndexing as TensorIndexer
-import RNNClassifierModule as RNNClassifier
+import NLPClassifierUnicoded
+import TensorIndexing
+import RNNClassifierModule
 
 def categoryFromOutput(output):
   topN, topI = output.topk(1)

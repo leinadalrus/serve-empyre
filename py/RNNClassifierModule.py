@@ -1,6 +1,6 @@
 import torch.nn
-import NLPClassifierUnicoded as NLPClassifier
-import TensorIndexing as TensorIndexer
+import NLPClassifierUnicoded
+import TensorIndexing
 
 class RNNClassifier(torch.nn.Module):
   def __init__(self, input_size, hidden_size, output_size):

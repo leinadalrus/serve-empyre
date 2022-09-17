@@ -1,8 +1,8 @@
 import random
-import NLPClassifierUnicoded as NLPClassifier
-import TensorIndexing as TensorIndexer
-import RNNClassifierModule as RNNClassifier
-import CategoricalOutputs as CatOut
+import NLPClassifierUnicoded
+import TensorIndexing
+import RNNClassifierModule
+import CategoricalOutputs
 
 def randomChoice(l):
     return l[random.randint(0, len(l) - 1)]

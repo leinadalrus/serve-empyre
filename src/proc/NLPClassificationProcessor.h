@@ -15,19 +15,19 @@ public:
   NLPClassificationProcessor();
   ~NLPClassificationProcessor();
 
-  char* file_models_xn(std::string filename_xpath);
-  torch::Tensor forward_tns(torch::Tensor dx_val);
-  
-  auto tokenize(char* filename_xpath);
-  auto yield_tokens(char* data_iter);
-  
-  auto pipe_text_flow();
-  auto label_pipeline();
+  auto flowPipeline();
+  auto labelPipeline();
 
+  auto tokenize(char* character);
+  auto yieldTokens(char* iterator);
+
+  char* fileModel(std::string filePath);
+  torch::Tensor forwardTensor(torch::Tensor dx);
+  
 private:
-  torch::Tensor x_coords = torch::Tensor(), y_coords = torch::Tensor();
-  torch::nn::Linear m_linear_an, m_linear_bn;
-  char* tokenized_iter_arr;
+  torch::Tensor coordsX = torch::Tensor(), coordsY = torch::Tensor();
+  torch::nn::Linear linearDX1, linearDX2;
+  char* tokenIterator;
 };
 
 #endif // NLP_CLASSIFICATION_PROCESSOR_H

@@ -2,15 +2,15 @@
 #include <cstring>
 #include <string.h>
 
-auto NLPClassificationProcessor::pipe_text_flow() {
-  auto text_pipeline = [this](auto x) {
-    x = this->tokenized_iter_arr;
+auto NLPClassificationProcessor::flowPipeline() {
+  auto text = [this](auto x) {
+    x = this->tokenIterator;
   };
 
-  return text_pipeline;
+  return text;
 }
 
-auto NLPClassificationProcessor::label_pipeline() {
+auto NLPClassificationProcessor::labelPipeline() {
   auto dx = [this](int x) {
     x -= 1;
   };
@@ -18,27 +18,31 @@ auto NLPClassificationProcessor::label_pipeline() {
   return dx;
 }
 
-auto NLPClassificationProcessor::yield_tokens(char *data_iter) {
+auto NLPClassificationProcessor::yieldTokens(char *iter) {
 
 }
 
-auto NLPClassificationProcessor::tokenize(char* filename_xpath) {
-  char** iter_arr;
-  for (auto x = iter_arr; x < &filename_xpath; x++) {
-    this->yield_tokens(*x);
-    auto tokenized = strtok_s(filename_xpath, " ", x);
-    iter_arr = &tokenized;
+auto NLPClassificationProcessor::tokenize(char* character) {
+  char** iter;
+  for (auto x = iter; x < &character; x++) {
+    this->yieldTokens(*x);
+    auto tokenized = strtok_s(character, " ", x);
+    iter = &tokenized;
   }
 
-  return iter_arr;
+  return iter;
 }
 
 NLPClassificationProcessor::NLPClassificationProcessor() {
-  std::string vowel_specials[1] = {"<aeiou>"};
+  std::string sentenceProcess[1] = {""};
   // auto vocab = build_vocab_from_iterator(yield_tokens(file_models_xn("public/resources/data/models/hemingway")), specials);
   // vocab.set_default_index(specials);
 }
 
-torch::Tensor NLPClassificationProcessor::forward_tns(torch::Tensor dx_val) {
-  return dx_val;
+char *NLPClassificationProcessor::fileModel(std::string filePath) {
+  return '';
+}
+
+torch::Tensor NLPClassificationProcessor::forwardTensor(torch::Tensor dx) {
+  return dx;
 }
