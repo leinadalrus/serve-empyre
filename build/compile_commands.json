@@ -1,17 +1,17 @@
 [
 {
   "directory": "F:/Users/Amstel/sources/repos/Empyre/build",
-  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -D_GLIBCXX_USE_CXX11_ABI= /Z7 /EHsc /DNOMINMAX /wd4267 /wd4251 /wd4522 /wd4838 /wd4305 /wd4244 /wd4190 /wd4101 /wd4996 /wd4275 /bigobj -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\ctrl\\ModuleRoutingComponent.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\ctrl\\ModuleRoutingComponent.cpp",
+  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\ctrl\\ModuleRoutingComponent.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\ctrl\\ModuleRoutingComponent.cpp",
   "file": "F:/Users/Amstel/sources/repos/Empyre/src/ctrl/ModuleRoutingComponent.cpp"
 },
 {
   "directory": "F:/Users/Amstel/sources/repos/Empyre/build",
-  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -D_GLIBCXX_USE_CXX11_ABI= /Z7 /EHsc /DNOMINMAX /wd4267 /wd4251 /wd4522 /wd4838 /wd4305 /wd4244 /wd4190 /wd4101 /wd4996 /wd4275 /bigobj -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\proc\\NLPClassificationProcessor.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\proc\\NLPClassificationProcessor.cpp",
+  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\proc\\NLPClassificationProcessor.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\proc\\NLPClassificationProcessor.cpp",
   "file": "F:/Users/Amstel/sources/repos/Empyre/src/proc/NLPClassificationProcessor.cpp"
 },
 {
   "directory": "F:/Users/Amstel/sources/repos/Empyre/build",
-  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -D_GLIBCXX_USE_CXX11_ABI= /Z7 /EHsc /DNOMINMAX /wd4267 /wd4251 /wd4522 /wd4838 /wd4305 /wd4244 /wd4190 /wd4101 /wd4996 /wd4275 /bigobj -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\proc\\NLPClassificationService.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\proc\\NLPClassificationService.cpp",
-  "file": "F:/Users/Amstel/sources/repos/Empyre/src/proc/NLPClassificationService.cpp"
+  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\models\\serve\\NLPClassificationService.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\models\\serve\\NLPClassificationService.cpp",
+  "file": "F:/Users/Amstel/sources/repos/Empyre/src/models/serve/NLPClassificationService.cpp"
 }
 ]

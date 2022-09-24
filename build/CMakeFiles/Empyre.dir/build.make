@@ -98,38 +98,34 @@ CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.s"
 	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Users\Amstel\sources\repos\Empyre\src\proc\NLPClassificationProcessor.cpp -o CMakeFiles\Empyre.dir\src\proc\NLPClassificationProcessor.cpp.s
 
-CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj: CMakeFiles/Empyre.dir/flags.make
-CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj: CMakeFiles/Empyre.dir/includes_CXX.rsp
-CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj: ../src/proc/NLPClassificationService.cpp
-CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj: CMakeFiles/Empyre.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Users\Amstel\sources\repos\Empyre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj"
-	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj -MF CMakeFiles\Empyre.dir\src\proc\NLPClassificationService.cpp.obj.d -o CMakeFiles\Empyre.dir\src\proc\NLPClassificationService.cpp.obj -c F:\Users\Amstel\sources\repos\Empyre\src\proc\NLPClassificationService.cpp
+CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj: CMakeFiles/Empyre.dir/flags.make
+CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj: CMakeFiles/Empyre.dir/includes_CXX.rsp
+CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj: ../src/models/serve/NLPClassificationService.cpp
+CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj: CMakeFiles/Empyre.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Users\Amstel\sources\repos\Empyre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj"
+	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj -MF CMakeFiles\Empyre.dir\src\models\serve\NLPClassificationService.cpp.obj.d -o CMakeFiles\Empyre.dir\src\models\serve\NLPClassificationService.cpp.obj -c F:\Users\Amstel\sources\repos\Empyre\src\models\serve\NLPClassificationService.cpp
 
-CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.i"
-	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Users\Amstel\sources\repos\Empyre\src\proc\NLPClassificationService.cpp > CMakeFiles\Empyre.dir\src\proc\NLPClassificationService.cpp.i
+CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.i"
+	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Users\Amstel\sources\repos\Empyre\src\models\serve\NLPClassificationService.cpp > CMakeFiles\Empyre.dir\src\models\serve\NLPClassificationService.cpp.i
 
-CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.s"
-	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Users\Amstel\sources\repos\Empyre\src\proc\NLPClassificationService.cpp -o CMakeFiles\Empyre.dir\src\proc\NLPClassificationService.cpp.s
+CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.s"
+	C:\raylib\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Users\Amstel\sources\repos\Empyre\src\models\serve\NLPClassificationService.cpp -o CMakeFiles\Empyre.dir\src\models\serve\NLPClassificationService.cpp.s
 
 # Object files for target Empyre
 Empyre_OBJECTS = \
 "CMakeFiles/Empyre.dir/src/ctrl/ModuleRoutingComponent.cpp.obj" \
 "CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.obj" \
-"CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj"
+"CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj"
 
 # External object files for target Empyre
 Empyre_EXTERNAL_OBJECTS =
 
 Empyre.exe: CMakeFiles/Empyre.dir/src/ctrl/ModuleRoutingComponent.cpp.obj
 Empyre.exe: CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.obj
-Empyre.exe: CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj
+Empyre.exe: CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj
 Empyre.exe: CMakeFiles/Empyre.dir/build.make
-Empyre.exe: ../lib/libtorch-win-shared-with-deps-debug-1.8.2+cpu/libtorch/lib/c10.lib
-Empyre.exe: ../lib/libtorch-win-shared-with-deps-debug-1.8.2+cpu/libtorch/lib/torch.lib
-Empyre.exe: ../lib/libtorch-win-shared-with-deps-debug-1.8.2+cpu/libtorch/lib/torch_cpu.lib
-Empyre.exe: ../lib/libtorch-win-shared-with-deps-debug-1.8.2+cpu/libtorch/lib/c10.lib
 Empyre.exe: CMakeFiles/Empyre.dir/linklibs.rsp
 Empyre.exe: CMakeFiles/Empyre.dir/objects1.rsp
 Empyre.exe: CMakeFiles/Empyre.dir/link.txt

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Empyre.dir/src/ctrl/ModuleRoutingComponent.cpp.obj"
   "CMakeFiles/Empyre.dir/src/ctrl/ModuleRoutingComponent.cpp.obj.d"
+  "CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj"
+  "CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj.d"
   "CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.obj"
   "CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.obj.d"
-  "CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj"
-  "CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj.d"
   "Empyre.exe"
   "Empyre.exe.manifest"
   "Empyre.pdb"

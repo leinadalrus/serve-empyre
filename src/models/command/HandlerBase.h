@@ -1,10 +1,10 @@
 #ifndef HANDLER_BASE_H
 #define HANDLER_BASE_H
 
-class MiniAppHandler {
+class HandlerBase {
 public:
-  MiniAppHandler();
-  ~MiniAppHandler();
+  HandlerBase();
+  ~HandlerBase();
 
   void Handle();
 private:

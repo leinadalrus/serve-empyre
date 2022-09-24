@@ -546,6 +546,30 @@ src/ctrl/ModuleRoutingComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/ctrl/ModuleRoutingComponent.cpp.s
 .PHONY : src/ctrl/ModuleRoutingComponent.cpp.s
 
+src/models/serve/NLPClassificationService.obj: src/models/serve/NLPClassificationService.cpp.obj
+.PHONY : src/models/serve/NLPClassificationService.obj
+
+# target to build an object file
+src/models/serve/NLPClassificationService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.obj
+.PHONY : src/models/serve/NLPClassificationService.cpp.obj
+
+src/models/serve/NLPClassificationService.i: src/models/serve/NLPClassificationService.cpp.i
+.PHONY : src/models/serve/NLPClassificationService.i
+
+# target to preprocess a source file
+src/models/serve/NLPClassificationService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.i
+.PHONY : src/models/serve/NLPClassificationService.cpp.i
+
+src/models/serve/NLPClassificationService.s: src/models/serve/NLPClassificationService.cpp.s
+.PHONY : src/models/serve/NLPClassificationService.s
+
+# target to generate assembly for a file
+src/models/serve/NLPClassificationService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/models/serve/NLPClassificationService.cpp.s
+.PHONY : src/models/serve/NLPClassificationService.cpp.s
+
 src/proc/NLPClassificationProcessor.obj: src/proc/NLPClassificationProcessor.cpp.obj
 .PHONY : src/proc/NLPClassificationProcessor.obj
 
@@ -569,30 +593,6 @@ src/proc/NLPClassificationProcessor.s: src/proc/NLPClassificationProcessor.cpp.s
 src/proc/NLPClassificationProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/proc/NLPClassificationProcessor.cpp.s
 .PHONY : src/proc/NLPClassificationProcessor.cpp.s
-
-src/proc/NLPClassificationService.obj: src/proc/NLPClassificationService.cpp.obj
-.PHONY : src/proc/NLPClassificationService.obj
-
-# target to build an object file
-src/proc/NLPClassificationService.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.obj
-.PHONY : src/proc/NLPClassificationService.cpp.obj
-
-src/proc/NLPClassificationService.i: src/proc/NLPClassificationService.cpp.i
-.PHONY : src/proc/NLPClassificationService.i
-
-# target to preprocess a source file
-src/proc/NLPClassificationService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.i
-.PHONY : src/proc/NLPClassificationService.cpp.i
-
-src/proc/NLPClassificationService.s: src/proc/NLPClassificationService.cpp.s
-.PHONY : src/proc/NLPClassificationService.s
-
-# target to generate assembly for a file
-src/proc/NLPClassificationService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empyre.dir\build.make CMakeFiles/Empyre.dir/src/proc/NLPClassificationService.cpp.s
-.PHONY : src/proc/NLPClassificationService.cpp.s
 
 # Help Target
 help:
@@ -637,12 +637,12 @@ help:
 	@echo ... src/ctrl/ModuleRoutingComponent.obj
 	@echo ... src/ctrl/ModuleRoutingComponent.i
 	@echo ... src/ctrl/ModuleRoutingComponent.s
+	@echo ... src/models/serve/NLPClassificationService.obj
+	@echo ... src/models/serve/NLPClassificationService.i
+	@echo ... src/models/serve/NLPClassificationService.s
 	@echo ... src/proc/NLPClassificationProcessor.obj
 	@echo ... src/proc/NLPClassificationProcessor.i
 	@echo ... src/proc/NLPClassificationProcessor.s
-	@echo ... src/proc/NLPClassificationService.obj
-	@echo ... src/proc/NLPClassificationService.i
-	@echo ... src/proc/NLPClassificationService.s
 .PHONY : help
 
 

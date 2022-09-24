@@ -1,7 +1,5 @@
 #include "ControllerBase.h"
 
-EmpyreController::EmpyreController() = default;
-
-EmpyreController::~EmpyreController() {
-  handler.~EmpyreHandler();
+ControllerBase::~ControllerBase() {
+  handler.~HandlerBase();
 }

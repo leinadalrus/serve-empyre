@@ -3,5 +3,5 @@
 
 ModuleRoutingComponent::ModuleRoutingComponent() = default;
 
-ModuleRoutingComponent::~ModuleRoutingComponent() { controller.~MiniAppRouter(); }
+ModuleRoutingComponent::~ModuleRoutingComponent() {}
 
