@@ -13,7 +13,7 @@
 
 typedef std::string Callable;
 
-class AlbertConfig : private torch::nn::Module {
+class AlbertConfig {
 public:
   int vocabSize(int size); /* — Vocabulary size of the ALBERT model. Defines the
                               number of different tokens that can be represented
