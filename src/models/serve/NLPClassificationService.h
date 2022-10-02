@@ -1,7 +1,8 @@
 #include <ATen/core/TensorBody.h>
 #include <string>
-#include <torch/torch.h>
 #include <torch/nn.h>
+#include <torch/torch.h>
+
 
 #ifndef D83A9746_FBBF_40D0_A13A_E745F6527430
 #define D83A9746_FBBF_40D0_A13A_E745F6527430
@@ -14,17 +15,15 @@ public:
   NLPClassificationService();
   ~NLPClassificationService();
 
-  char* next(char* tn_file_iter_value[]);
-  int* yield_data_tokens(int* tn_file_iter_data);
+  char *next(char *tn_file_iter_value[]);
+  int *yield_data_tokens(int *tn_file_iter_data);
 
   auto pipeline_format() -> void {
-    auto pipeline_file = [](){};
+    auto pipeline_file = []() {};
     return pipeline_file();
   }
-  
-  std::string collate_batch(char batch[]) {
-    return batch;
-  }
+
+  std::string collate_batch(char batch[]) { return batch; }
 
 private:
   std::string formatting_dictionary_ctx;

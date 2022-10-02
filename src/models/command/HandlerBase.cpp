@@ -4,7 +4,7 @@ MiniAppHandler::MiniAppHandler() = default;
 
 MiniAppHandler::~MiniAppHandler() {
   MiniAppHandler *handler;
-  delete [] handler;
+  delete[] handler;
   handler = nullptr;
 }
 

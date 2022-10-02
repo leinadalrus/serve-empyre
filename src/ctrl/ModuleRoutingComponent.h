@@ -7,10 +7,10 @@
 #ifndef MODULE_ROUTING_COMPONENT_H
 #define MODULE_ROUTING_COMPONENT_H
 
-class ModuleRoutingComponent: private ControllerBase {
+class ModuleRoutingComponent : private ControllerBase {
 public:
   ModuleRoutingComponent();
-  ModuleRoutingComponent(HandlerBase handler): router(handler) {}
+  ModuleRoutingComponent(HandlerBase handler) : router(handler) {}
   ~ModuleRoutingComponent();
 
   void Handle();

@@ -9,7 +9,7 @@ int SampleTensorInjector::run(int argc, const char *argv[]) {
 
   try {
     this->module = torch::jit::load(argv[1]);
-  } catch (const c10::Error& e) {
+  } catch (const c10::Error &e) {
     std::cerr << "Error loading the model\n";
     retval = -1;
   }

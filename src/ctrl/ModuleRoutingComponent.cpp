@@ -4,4 +4,3 @@
 ModuleRoutingComponent::ModuleRoutingComponent() = default;
 
 ModuleRoutingComponent::~ModuleRoutingComponent() {}
-

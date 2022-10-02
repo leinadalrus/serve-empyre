@@ -1,5 +1,3 @@
 #include "ControllerBase.h"
 
-ControllerBase::~ControllerBase() {
-  handler.~HandlerBase();
-}
+ControllerBase::~ControllerBase() { handler.~HandlerBase(); }

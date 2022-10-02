@@ -8,15 +8,14 @@
 
 class ControllerBase {
 public:
-  ControllerBase(HandlerBase handler): handler(handler) {
-    CROW_ROUTE(app, "/")([](){
-      return "$html$";
-    });
+  ControllerBase(HandlerBase handler) : handler(handler) {
+    CROW_ROUTE(app, "/")([]() { return "$html$"; });
 
     app.port(18080).multithreaded().run();
   }
 
   ~ControllerBase();
+
 private:
   HandlerBase handler;
   crow::SimpleApp app;
