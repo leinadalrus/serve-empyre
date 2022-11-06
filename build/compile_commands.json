@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/Users/Amstel/sources/repos/Empyre/build",
+  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\ctrl\\ModuleRoutingComponent.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\ctrl\\ModuleRoutingComponent.cpp",
+  "file": "F:/Users/Amstel/sources/repos/Empyre/src/ctrl/ModuleRoutingComponent.cpp"
+},
+{
+  "directory": "F:/Users/Amstel/sources/repos/Empyre/build",
+  "command": "C:\\raylib\\mingw\\bin\\g++.exe  @CMakeFiles/Empyre.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\Empyre.dir\\src\\proc\\albert\\NLPClassificationProcessor.cpp.obj -c F:\\Users\\Amstel\\sources\\repos\\Empyre\\src\\proc\\albert\\NLPClassificationProcessor.cpp",
+  "file": "F:/Users/Amstel/sources/repos/Empyre/src/proc/albert/NLPClassificationProcessor.cpp"
+}
+]
