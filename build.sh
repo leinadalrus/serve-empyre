@@ -1,6 +1,7 @@
-#! /usr/var/bin/bash
+#!/bin/bash
 
-mkdir build
-cd build || exit
-cmake -DCMAKE_PREFIX_PATH=./lib/libtorch-win-shared-with-deps-debug-1.8.2+cpu\\libtorch\\
-cmake --build . --config Debug
+code="$PWD"
+opts=-g
+cd output/ > /dev/null
+g++ $opts $code/serve_empyre -o serve_empyre
+cd $code > /dev/null
