@@ -1,13 +1,12 @@
 #include <map>
-#include <string.h>
+#include <cstring>
 #include <vector>
-
 
 #ifndef ALBERT_TOKENIZER_FAST_H
 #define ALBERT_TOKENIZER_FAST_H
 
 class AlbertTokenizer {
-public:
+  public:
   AlbertTokenizer();
   ~AlbertTokenizer();
   void vocabFile(std::string filename);
@@ -23,11 +22,11 @@ public:
   std::string maskToken(std::string str);       /* defaults to "[MASK]" */
   std::vector<std::string> tokenize(std::string contents);
   std::vector<float>
-  toConvert(std::vector<std::string>
-                tokens); // tokens to tensors. Give tokens scores based to
-                         // matching target data and test data.
-
-private:
+    toConvert(std::vector<std::string>
+              tokens); // tokens to tensors. Give tokens scores based to
+  // matching target data and test data.
+  
+  private:
   std::map<std::string, int> vocabulary;
   std::map<int, std::string> tokenTuple;
   bool isLowercase;
