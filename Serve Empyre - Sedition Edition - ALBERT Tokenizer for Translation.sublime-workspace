@@ -505,10 +505,7 @@
 			{
 				"buffer_size": 773,
 				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
+			}
 		}
 	],
 	"build_system": "",
@@ -653,10 +650,7 @@
 	"expanded_folders":
 	[
 		"/F/Users/Amstel/workspaces/serve-empyre",
-		"/F/Users/Amstel/workspaces/serve-empyre/src",
-		"/F/Users/Amstel/workspaces/serve-empyre/src/models",
-		"/F/Users/Amstel/workspaces/serve-empyre/src/models/nmt",
-		"/F/Users/Amstel/workspaces/serve-empyre/src/proc"
+		"/F/Users/Amstel/workspaces/serve-empyre/src"
 	],
 	"file_history":
 	[
