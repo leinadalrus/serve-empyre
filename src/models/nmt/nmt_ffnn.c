@@ -8,7 +8,7 @@ NMTFeedForwardPrototype_t *create_on_demand(struct internal_t *self, char *in_me
   return *self;
 }
 
-int *update_data_on_stop_words(NMTFeedForwardData_t *self) {
+int *stopword_updates_data(NMTFeedForwardData_t *self) {
   char text_lines[64];
   char line_marker = '';
   

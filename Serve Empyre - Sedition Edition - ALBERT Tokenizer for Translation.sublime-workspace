@@ -503,9 +503,69 @@
 			"file": "src/models/nmt/nmt_ffnn.c",
 			"settings":
 			{
-				"buffer_size": 773,
+				"buffer_size": 769,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "stopword"
+					},
+					"CQAAAIgBAAAAAAAAiQEAAAAAAAAAAAAAiQEAAAAAAACJAQAAAAAAABkAAAB1cGRhdGVfZGF0YV9vbl9zdG9wX3dvcmRziQEAAAAAAACKAQAAAAAAAAAAAACKAQAAAAAAAIsBAAAAAAAAAAAAAIsBAAAAAAAAjAEAAAAAAAAAAAAAjAEAAAAAAACNAQAAAAAAAAAAAACNAQAAAAAAAI4BAAAAAAAAAAAAAI4BAAAAAAAAjwEAAAAAAAAAAAAAjwEAAAAAAACQAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoQEAAAAAAACIAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "_uopda"
+					},
+					"BgAAAJABAAAAAAAAkQEAAAAAAAAAAAAAkQEAAAAAAACSAQAAAAAAAAAAAACSAQAAAAAAAJMBAAAAAAAAAAAAAJMBAAAAAAAAlAEAAAAAAAAAAAAAlAEAAAAAAACVAQAAAAAAAAAAAACVAQAAAAAAAJYBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAEAAAAAAACQAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					4,
+					"left_delete",
+					null,
+					"BAAAAJUBAAAAAAAAlQEAAAAAAAABAAAAYZQBAAAAAAAAlAEAAAAAAAABAAAAZJMBAAAAAAAAkwEAAAAAAAABAAAAcJIBAAAAAAAAkgEAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "pdates_data"
+					},
+					"CwAAAJIBAAAAAAAAkwEAAAAAAAAAAAAAkwEAAAAAAACUAQAAAAAAAAAAAACUAQAAAAAAAJUBAAAAAAAAAAAAAJUBAAAAAAAAlgEAAAAAAAAAAAAAlgEAAAAAAACXAQAAAAAAAAAAAACXAQAAAAAAAJgBAAAAAAAAAAAAAJgBAAAAAAAAmQEAAAAAAAAAAAAAmQEAAAAAAACaAQAAAAAAAAAAAACaAQAAAAAAAJsBAAAAAAAAAAAAAJsBAAAAAAAAnAEAAAAAAAAAAAAAnAEAAAAAAACdAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgEAAAAAAACSAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "se"
+					},
+					"AgAAAJ0BAAAAAAAAngEAAAAAAAAAAAAAngEAAAAAAACfAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJ4BAAAAAAAAngEAAAAAAAABAAAAZZ0BAAAAAAAAnQEAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -715,23 +775,23 @@
 					"buffer": 0,
 					"file": "src/models/nmt/nmt_ffnn.c",
 					"selected": true,
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 773,
+						"buffer_size": 769,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								498,
-								498
+								526,
+								526
 							]
 						],
 						"settings":
 						{
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/serve-empyre/src/models/nmt/nmt_ffnn.cpp",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/serve-empyre/src/models/nmt/nmt_ffnn.c",
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
